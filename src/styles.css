@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* default tags */
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+h1{
+    font-size: 72px;
+    line-height: 98.05px;
+}
+h2{
+    font-size: 64px;
+    line-height: 87.16px;
+}
+h3{
+    font-size: 54px;
+    line-height: 73.54px;
+}
+h4{
+    font-size: 48px;
+    line-height: 65.37px;
+}
+h5{
+    font-size: 34px;
+    line-height: 46.3px;
+}
+h6{
+    font-size: 28px;
+    line-height: 38.13px;
+}
+
+a{
+    font-weight: 400;
+    line-height: 19.07px;
+    size: 14px;
+    text-decoration: solid underline;
+    cursor: pointer;
+}
+
+/* upcoming classes */
+
+.b-medium, .b-small, .b-mid-lg, .b-base, .b-mini{
+    font-weight: 400;
+}
+.b-large{
+   font-size: 24px;
+   line-height: 32.68px;
+}
+.b-mid-lg{
+    font-size: 20px;
+    line-height: 27.24px;
+}
+.b-medium{
+    font-size: 18px;
+    line-height: 24.51px;
+}
+
+.b.base{
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.b-mini{
+    font-size: 12px;
+    line-height: 16.34px;
+}
+.b-small{
+    font-size: 14px;
+    line-height: 19.07px;
+}
