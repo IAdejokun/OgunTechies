@@ -5,7 +5,12 @@ module.exports = {
      './node_modules/preline/preline.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Open Sans"', 'sans-serif'],
+        'poppins': ['"Poppins"', 'sans-serif'],
+      },
+    },
   },
   plugins: [
     require('preline/plugin'),
