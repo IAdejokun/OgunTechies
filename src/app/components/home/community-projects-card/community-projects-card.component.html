@@ -1,0 +1,72 @@
+<div>
+
+    
+    <div class="flex flex-row justify-center">
+       
+        <div class="flex my-5 mx-auto gap-x-10">
+            @for (item of communityProjectsDeetsRowOne; track $index) {
+            <a class="flex flex-col group bg-white border no-underline shadow-sm rounded-xl overflow-hidden hover:shadow-lg focus:outline-none focus:shadow-lg transition max-w-[400px] max-h-fit" href="#">
+                <div class="relative pt-[50%] sm:pt-[60%] m-4 rounded-[0.625rem] overflow-hidden">
+                  <img class=" absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl" src="{{item.imageUrl}}" alt="{{item.imageAlt}}">
+                </div>
+                <div class="px-4 pb-4 md:px-5 md:pb-5">
+                  <p class="text-lg pt-2 pb-5 font-bold text-gray-800">
+                    {{item.title}}
+                </p>
+                  <p class="mt-1 mb-5 text-gray-500">
+                    {{item.description}}
+                  </p>
+                  <a class="no-underline my-9">
+                    Learn More 
+                    <span class="inline-flex align-middle">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.125 10H16.875" stroke="#279249" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.25 4.375L16.875 10L11.25 15.625" stroke="#279249" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                   
+                  </span>
+                </a>
+                </div>
+              </a>
+            }
+        </div>
+
+        <div>
+            
+        </div>
+    </div>
+
+  
+    <div class="flex flex-row">
+        <div class="flex my-5 mx-auto gap-x-10">
+            @for (item of communityProjectsDeetsRowTwo; track $index) {
+            <a class="flex flex-col group bg-white border no-underline shadow-sm rounded-xl overflow-hidden hover:shadow-lg focus:outline-none focus:shadow-lg transition max-w-[400px] max-h-fit" href="#">
+                <div class="relative pt-[50%] sm:pt-[60%] m-4 rounded-[0.625rem] overflow-hidden">
+                  <img class=" absolute top-0 start-0 object-cover group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-t-xl" src="{{item.imageUrl}}" alt="{{item.imageAlt}}">
+                </div>
+                <div class="px-4 pb-4 md:px-5 md:pb-5">
+                  <p class="text-lg pt-2 pb-5 font-bold text-gray-800">
+                    {{item.title}}
+                </p>
+                  <p class="mt-1 mb-5 text-gray-500">
+                   {{item.description}}
+                  </p>
+                  <a class="no-underline my-9">
+                    Learn More 
+                    <span class="inline-flex align-middle">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.125 10H16.875" stroke="#279249" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.25 4.375L16.875 10L11.25 15.625" stroke="#279249" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                   
+                  </span>
+                </a>
+                </div>
+              </a>
+            }
+        </div>
+        <div>
+
+        </div>
+    </div>
+   
+
+</div>

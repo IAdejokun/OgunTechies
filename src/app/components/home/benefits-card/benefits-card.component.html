@@ -1,0 +1,23 @@
+<div class="flex flex-row gap-6 justify-center">
+
+    @for (item of cardDeets; track $index) {
+<div class="flex flex-col bg-[#F2FBF5] w-60 border p-6 shadow-sm rounded-2xl">
+    <!-- <img class="w-full h-auto rounded-t-xl" src="assets/profile" alt="Card Image"> -->
+
+    
+        <div class="mx-auto">
+            <img src="{{item.imageUrl}}" alt="{{item.imageAlt}}">
+        </div>
+    
+        <div class="p-4 md:p-5">
+          <p class="b-medium font-bold text-[#1E1E1E] text-center">{{item.title}}</p>
+          <p class="b-base text-center text-[#5D5D5D]">
+            {{item.description}}
+          </p>
+        </div>
+    
+   
+  </div>
+    }
+    
+  </div>
